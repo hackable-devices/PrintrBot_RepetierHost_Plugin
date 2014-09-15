@@ -1,8 +1,0 @@
-C:\Program Files\Repetier-Host\plugins\uDeltaPlugin\uDeltaPlugin.dll
-C:\Program Files\Repetier-Host\plugins\uDeltaPlugin\uDeltaPlugin.pdb
-E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\DemoPlugin.csprojResolveAssemblyReference.cache
-E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.uDeltaControl.resources
-E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.Properties.Resources.resources
-E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\DemoPlugin.csproj.GenerateResource.Cache
-E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.dll
-E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.pdb
