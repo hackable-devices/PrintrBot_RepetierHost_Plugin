@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CalibrateButton_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CalibrateButton_Do" xml:space="preserve">
+    <value>Calibrate</value>
+  </data>
+  <data name="CalibrateHelp" xml:space="preserve">
+    <value>To calibrate the Z axis, you need to find the correct offset for the nozzle first, and then calculate the planearity of the plate</value>
+  </data>
+  <data name="CalibratePanelTitle" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="Calibrate_Step1" xml:space="preserve">
+    <value>Finding X,Y and Z Home positions</value>
+  </data>
+  <data name="FilamentPanelTitle" xml:space="preserve">
+    <value>Filament</value>
+  </data>
+  <data name="LabelPreheating" xml:space="preserve">
+    <value>Preheating temperature :</value>
+  </data>
+  <data name="LoadingButton_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="LoadingButton_Load" xml:space="preserve">
+    <value>Load filament</value>
+  </data>
+  <data name="LoadingButton_Unload" xml:space="preserve">
+    <value>Unload filament</value>
+  </data>
+  <data name="LoadingLabel_Heating" xml:space="preserve">
+    <value>Heating ...</value>
+  </data>
+  <data name="LoadingLabel_Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="LoadingLabel_Unloading" xml:space="preserve">
+    <value>Unloading</value>
+  </data>
+  <data name="PreheatButton_Cancel" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="PreheatButton_Do" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="PreheatLabel_Heating" xml:space="preserve">
+    <value>Heating ...</value>
+  </data>
+  <data name="PreheatLabel_NotHeating" xml:space="preserve">
+    <value>Not Heating</value>
+  </data>
+  <data name="PreheatPanelTitle" xml:space="preserve">
+    <value>Preheating</value>
+  </data>
+  <data name="PrinterDisconnected_Button" xml:space="preserve">
+    <value>Check Connection</value>
+  </data>
+  <data name="PrinterDisconnected_Label" xml:space="preserve">
+    <value>The PrintrBot seems not connected. Connect it and press the button below to start.</value>
+  </data>
+  <data name="PrinterDisconnected_Text" xml:space="preserve">
+    <value>The PrintrBot seems to be disconnected. Connect it again or check the connection and try again.</value>
+  </data>
+  <data name="PrinterDisconnected_Title" xml:space="preserve">
+    <value>Printer disconnected</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>PrintrBot Control Panel by CKAB</value>
+  </data>
+  <data name="LoadingLabel_FanOff" xml:space="preserve">
+    <value>Stopping fan ...</value>
+  </data>
+  <data name="LoadingLabel_FanOn" xml:space="preserve">
+    <value>Starting fan ...</value>
+  </data>
+  <data name="LoadingLabel_MovingAway" xml:space="preserve">
+    <value>Going up a bit ...</value>
+  </data>
+  <data name="Calibrate_Step2" xml:space="preserve">
+    <value>Printing calibration cube ...</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="calibration_cube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calibration_cube.gcode;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LoadingMessageBox_Text" xml:space="preserve">
+    <value>You can now load the filament into the extruder and check that it's extruding</value>
+  </data>
+  <data name="LoadingMessageBox_Title" xml:space="preserve">
+    <value>Loading filament</value>
+  </data>
+  <data name="UnloadingMessageBox_Text" xml:space="preserve">
+    <value>You can now unload the filament from the extruder slowly, make sure that you remove all little parts that may remain in the filament plunger.</value>
+  </data>
+  <data name="UnloadingMessageBox_Title" xml:space="preserve">
+    <value>Unloading filament</value>
+  </data>
+  <data name="Calibrate_Step2Done" xml:space="preserve">
+    <value>Printing done. If the layers printed are too squashed, click on "Nozzle too close", else, click on "Nozzle too far"</value>
+  </data>
+  <data name="Calibrate_Step3_TooClose" xml:space="preserve">
+    <value>Nozzle Too Close</value>
+  </data>
+  <data name="Calibrate_Step3_TooFar" xml:space="preserve">
+    <value>Nozzle Too Far</value>
+  </data>
+  <data name="NewCalibrationOrNot_Text" xml:space="preserve">
+    <value>Do you want to start a new calibration ? If you haven't calibrated before, click yes. If you already have calibrated and want to tweak your settings, click no.</value>
+  </data>
+  <data name="NewCalibrationOrNot_Title" xml:space="preserve">
+    <value>New Calibration</value>
+  </data>
+  <data name="NumberOfLinesInCalibrationGCODE" xml:space="preserve">
+    <value>210.0</value>
+  </data>
+</root>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>uDeltaPlugin</name>
+    </assembly>
+    <members>
+        <member name="M:uDeltaPlugin.uDeltaControl.Connect(RepetierHostExtender.interfaces.IHost)">
+            <summary>
+            Store reference to host for later use
+            </summary>
+            <param name="_host">Host instance</param>
+        </member>
+        <member name="F:uDeltaPlugin.uDeltaControl.components">
+            <summary> 
+            Erforderliche Designervariable.
+            </summary>
+        </member>
+        <member name="M:uDeltaPlugin.uDeltaControl.Dispose(System.Boolean)">
+            <summary> 
+            Verwendete Ressourcen bereinigen.
+            </summary>
+            <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+        </member>
+        <member name="M:uDeltaPlugin.uDeltaControl.InitializeComponent">
+            <summary> 
+            Erforderliche Methode für die Designerunterstützung. 
+            Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+            </summary>
+        </member>
+        <member name="M:uDeltaPlugin.uDeltaPlugin.PreInitalize(RepetierHostExtender.interfaces.IHost)">
+            <summary>
+            Called first to allow filling some lists. Host is not fully set up at that moment.
+            </summary>
+            <param name="host"></param>
+        </member>
+        <member name="M:uDeltaPlugin.uDeltaPlugin.PostInitialize">
+            <summary>
+            Called after everything is initalized to finish parts, that rely on other initializations.
+            Here you must create and register new Controls and Windows.
+            </summary>
+        </member>
+        <member name="M:uDeltaPlugin.uDeltaPlugin.FinializeInitialize">
+            <summary>
+            Last round of plugin calls. All controls exist, so now you may modify them to your wishes.
+            </summary>
+        </member>
+        <member name="T:uDeltaPlugin.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:uDeltaPlugin.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:uDeltaPlugin.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>

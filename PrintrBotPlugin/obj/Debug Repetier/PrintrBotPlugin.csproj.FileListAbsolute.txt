@@ -1,0 +1,9 @@
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\bin\Debug Repetier\PrintrBotPlugin.dll
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\bin\Debug Repetier\PrintrBotPlugin.pdb
+C:\Program Files\Repetier-Host\plugins\PrintrBotPlugin\PrintrBotPlugin.dll
+C:\Program Files\Repetier-Host\plugins\PrintrBotPlugin\PrintrBotPlugin.pdb
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Debug Repetier\PrintrBotPlugin.PrintrBotPanel.resources
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Debug Repetier\PrintrBotPlugin.Properties.Resources.resources
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Debug Repetier\PrintrBotPlugin.csproj.GenerateResource.Cache
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Debug Repetier\PrintrBotPlugin.dll
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Debug Repetier\PrintrBotPlugin.pdb

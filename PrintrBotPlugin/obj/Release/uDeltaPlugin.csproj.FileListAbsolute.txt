@@ -1,0 +1,20 @@
+C:\Program Files\Repetier-Host\plugins\uDeltaPlugin\uDeltaPlugin.dll
+C:\Program Files\Repetier-Host\plugins\uDeltaPlugin\uDeltaPlugin.pdb
+E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.uDeltaControl.resources
+E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.Properties.Resources.resources
+E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.csproj.GenerateResource.Cache
+E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.dll
+E:\DEV\host\v1\DemoPlugin\DemoPlugin\obj\Release\uDeltaPlugin.pdb
+E:\DEV\host\v1\DemoPlugin\uDeltaPlugin\obj\Release\uDeltaPlugin.csprojResolveAssemblyReference.cache
+E:\DEV\host\v1\DemoPlugin\uDeltaPlugin\obj\Release\uDeltaPlugin.uDeltaControl.resources
+E:\DEV\host\v1\DemoPlugin\uDeltaPlugin\obj\Release\uDeltaPlugin.Properties.Resources.resources
+E:\DEV\host\v1\DemoPlugin\uDeltaPlugin\obj\Release\uDeltaPlugin.csproj.GenerateResource.Cache
+E:\DEV\host\v1\DemoPlugin\uDeltaPlugin\obj\Release\uDeltaPlugin.dll
+E:\DEV\host\v1\DemoPlugin\uDeltaPlugin\obj\Release\uDeltaPlugin.pdb
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\uDeltaPlugin.csprojResolveAssemblyReference.cache
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\uDeltaPlugin.uDeltaControl.resources
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\uDeltaPlugin.Properties.Resources.resources
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\uDeltaPlugin.csproj.GenerateResource.Cache
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\uDeltaPlugin.dll
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\uDeltaPlugin.pdb
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\PrintrBotPlugin.Properties.Resources.resources

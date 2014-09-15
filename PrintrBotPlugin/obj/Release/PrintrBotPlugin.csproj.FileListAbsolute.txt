@@ -1,0 +1,7 @@
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\PrintrBotPlugin.uDeltaControl.resources
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\PrintrBotPlugin.Properties.Resources.resources
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\PrintrBotPlugin.csproj.GenerateResource.Cache
+C:\Program Files\Repetier-Host\plugins\PrintrBotPlugin\PrintrBotPlugin.dll
+C:\Program Files\Repetier-Host\plugins\PrintrBotPlugin\PrintrBotPlugin.pdb
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\PrintrBotPlugin.dll
+C:\Users\tchap\Documents\GitHub\-uDeltaPlugin_for_Repetier_Host\uDeltaPlugin\obj\Release\PrintrBotPlugin.pdb
