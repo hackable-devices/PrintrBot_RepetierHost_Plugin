@@ -389,6 +389,7 @@ namespace PrintrBotPlugin
                 this.calibrating = true;
 
                 /* STEP 1 */
+                buttonCalibrate.Enabled = false;
                 buttonCalibrate.Text = Properties.Resources.CalibrateButton_Cancel;
                 labelCalibration.Text = Properties.Resources.Calibrate_Step1;
 
@@ -405,8 +406,6 @@ namespace PrintrBotPlugin
                 this.injectCommand("G28 Z0");
                 this.injectCommand("G29");
 
-                System.Threading.Thread.Sleep(3); // Wait for G29 a bit
-
                 /* STEP 2 */
                 // Then run job
                 var context = TaskScheduler.FromCurrentSynchronizationContext();
@@ -419,6 +418,7 @@ namespace PrintrBotPlugin
                         double count = 0.0;
                         while ((line = reader.ReadLine()) != null && this.calibrating == true)
                         {
+                            buttonCalibrate.Enabled = true;
                             count++;
                             var token = Task.Factory.CancellationToken;
                             Task.Factory.StartNew(() =>
