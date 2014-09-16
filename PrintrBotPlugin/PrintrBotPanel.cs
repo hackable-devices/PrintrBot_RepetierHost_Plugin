@@ -36,9 +36,30 @@ namespace PrintrBotPlugin
         public PrintrBotPanel()
         {
             InitializeComponent();
-
+            this.InitializeStrings();
         }
-        
+
+        private void InitializeStrings()
+        {
+            this.buttonLoad.Text = Properties.Resources.LoadingButton_Load;
+            this.buttonUnload.Text = Properties.Resources.LoadingButton_Unload;
+            this.groupFilament.Text = Properties.Resources.FilamentPanelTitle;
+            this.buttonCancel.Text = Properties.Resources.CalibrateButton_Cancel;
+            this.groupPreheating.Text = Properties.Resources.PreheatPanelTitle;
+            this.buttonPreheat.Text = Properties.Resources.PreheatButton_Do;
+            this.labelPreheatingStatus.Text = Properties.Resources.PreheatLabel_NotHeating;
+            this.labelPreheatingTemp.Text = Properties.Resources.LabelPreheating;
+            this.labelTitlePanel.Text = Properties.Resources.Title;
+            this.groupCalibration.Text = Properties.Resources.CalibratePanelTitle;
+            this.buttonCalibrationOK.Text = Properties.Resources.Calibrate_Step3_OK;
+            this.buttonTooFar.Text = Properties.Resources.Calibrate_Step3_TooFar;
+            this.buttonTooClose.Text = Properties.Resources.Calibrate_Step3_TooClose;
+            this.labelCalibration.Text = Properties.Resources.CalibrateHelp;
+            this.buttonCalibrate.Text = Properties.Resources.CalibrateButton_Do;
+            this.labelConnection.Text = Properties.Resources.PrinterDisconnected_Label;
+            this.buttonCheckConnection.Text = Properties.Resources.PrinterDisconnected_Button;
+        }
+
         #region IHostComponent implementation
 
         // Name inside component repository
@@ -383,8 +404,10 @@ namespace PrintrBotPlugin
                 this.injectCommand("G28 X0 Y0");
                 this.injectCommand("G28 Z0");
                 this.injectCommand("G29");
-                
 
+                System.Threading.Thread.Sleep(3); // Wait for G29 a bit
+
+                /* STEP 2 */
                 // Then run job
                 var context = TaskScheduler.FromCurrentSynchronizationContext();
 
@@ -394,7 +417,7 @@ namespace PrintrBotPlugin
                     {
                         string line;
                         double count = 0.0;
-                        while ((line = reader.ReadLine()) != null && calibrating == true)
+                        while ((line = reader.ReadLine()) != null && this.calibrating == true)
                         {
                             count++;
                             var token = Task.Factory.CancellationToken;
@@ -419,15 +442,19 @@ namespace PrintrBotPlugin
 
                 }).ContinueWith(_ => {
 
-                    // We want to retrieve the M212 Offsets, so we trigger a M501 and handle the response below
-                    host.Connection.eventResponse += Connection_eventResponse;
-                    host.Connection.injectManualCommand("M501");
+                    /* STEP 3 */
+                    if (this.calibrating == true)
+                    {
+                        // We want to retrieve the M212 Offsets, so we trigger a M501 and handle the response below
+                        host.Connection.eventResponse += Connection_eventResponse;
+                        host.Connection.injectManualCommand("M501");
 
-                    labelCalibration.Text = Properties.Resources.Calibrate_Step2Done;
-                    buttonTooClose.Visible = true;
-                    buttonCalibrationOK.Visible = true;
-                    buttonTooFar.Visible = true;
-                    buttonCalibrate.Visible = false;
+                        labelCalibration.Text = Properties.Resources.Calibrate_Step2Done;
+                        buttonTooClose.Visible = true;
+                        buttonCalibrationOK.Visible = true;
+                        buttonTooFar.Visible = true;
+                        buttonCalibrate.Visible = false;
+                    }
 
                 }, context);
 
@@ -451,7 +478,7 @@ namespace PrintrBotPlugin
         {
             if (this.M212_Z_Offset != 1000 ) // <> not probed yet
             {
-               // Change offset by "offset"
+               // Change offset by "offset" -1 < Z < 1
                this.injectCommand(String.Format("M212 Z{0:f1}", Math.Min(1,Math.Max(this.M212_Z_Offset + offset, -1.0))));
                this.injectCommand("M500"); // Saves
             }

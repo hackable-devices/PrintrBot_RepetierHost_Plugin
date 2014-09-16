@@ -124,7 +124,7 @@
     <value>Calibrate</value>
   </data>
   <data name="CalibrateHelp" xml:space="preserve">
-    <value>To calibrate the Z axis, you need to find the correct offset for the nozzle first, and then calculate the planearity of the plate</value>
+    <value>The process of calibration will first home all axes thanks to the endstops on each axis.Then, the printer will heat up and print a calibration layer. Once this is done, you will be able to tell if the printed layer is too squashed or too far from the plate.Start the calibration again until the layers are perfectly consistent.</value>
   </data>
   <data name="CalibratePanelTitle" xml:space="preserve">
     <value>Calibration</value>
@@ -196,7 +196,7 @@
     <value>Going up a bit ...</value>
   </data>
   <data name="Calibrate_Step2" xml:space="preserve">
-    <value>Printing calibration cube ...</value>
+    <value>Printing calibration layer ...</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="calibration_cube" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -231,5 +231,8 @@
   </data>
   <data name="NumberOfLinesInCalibrationGCODE" xml:space="preserve">
     <value>210.0</value>
+  </data>
+  <data name="Calibrate_Step3_OK" xml:space="preserve">
+    <value>All is OK</value>
   </data>
 </root>

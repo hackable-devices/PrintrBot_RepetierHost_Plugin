@@ -250,7 +250,7 @@
             this.groupCalibration.Controls.Add(this.buttonCalibrate);
             this.groupCalibration.Location = new System.Drawing.Point(10, 222);
             this.groupCalibration.Name = "groupCalibration";
-            this.groupCalibration.Size = new System.Drawing.Size(318, 92);
+            this.groupCalibration.Size = new System.Drawing.Size(318, 163);
             this.groupCalibration.TabIndex = 11;
             this.groupCalibration.TabStop = false;
             this.groupCalibration.Text = "Calibration";
@@ -261,11 +261,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCalibrationOK.BackColor = System.Drawing.Color.LightGreen;
-            this.buttonCalibrationOK.Location = new System.Drawing.Point(137, 60);
+            this.buttonCalibrationOK.Location = new System.Drawing.Point(137, 131);
             this.buttonCalibrationOK.Name = "buttonCalibrationOK";
             this.buttonCalibrationOK.Size = new System.Drawing.Size(48, 23);
             this.buttonCalibrationOK.TabIndex = 4;
-            this.buttonCalibrationOK.Text = "OK !";
+            this.buttonCalibrationOK.Text = "All is OK";
             this.buttonCalibrationOK.UseVisualStyleBackColor = false;
             this.buttonCalibrationOK.Visible = false;
             this.buttonCalibrationOK.Click += new System.EventHandler(this.buttonCalibrationOK_Click);
@@ -275,7 +275,7 @@
             this.buttonTooFar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonTooFar.BackColor = System.Drawing.Color.Plum;
-            this.buttonTooFar.Location = new System.Drawing.Point(191, 60);
+            this.buttonTooFar.Location = new System.Drawing.Point(191, 131);
             this.buttonTooFar.Name = "buttonTooFar";
             this.buttonTooFar.Size = new System.Drawing.Size(104, 23);
             this.buttonTooFar.TabIndex = 3;
@@ -289,7 +289,7 @@
             this.buttonTooClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonTooClose.BackColor = System.Drawing.Color.BurlyWood;
-            this.buttonTooClose.Location = new System.Drawing.Point(27, 60);
+            this.buttonTooClose.Location = new System.Drawing.Point(27, 131);
             this.buttonTooClose.Name = "buttonTooClose";
             this.buttonTooClose.Size = new System.Drawing.Size(104, 23);
             this.buttonTooClose.TabIndex = 2;
@@ -304,7 +304,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.labelCalibration.Location = new System.Drawing.Point(6, 20);
             this.labelCalibration.Name = "labelCalibration";
-            this.labelCalibration.Size = new System.Drawing.Size(301, 37);
+            this.labelCalibration.Size = new System.Drawing.Size(301, 108);
             this.labelCalibration.TabIndex = 1;
             this.labelCalibration.Text = "To calibrate the Z axis, you need to find the correct offset for the nozzle first" +
     ", and then calculate the planearity of the plate";
@@ -313,7 +313,7 @@
             // 
             this.buttonCalibrate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCalibrate.Location = new System.Drawing.Point(102, 60);
+            this.buttonCalibrate.Location = new System.Drawing.Point(102, 131);
             this.buttonCalibrate.Name = "buttonCalibrate";
             this.buttonCalibrate.Size = new System.Drawing.Size(119, 23);
             this.buttonCalibrate.TabIndex = 0;
@@ -396,8 +396,12 @@
 
         // Skin
         private System.Windows.Forms.Label labelTitlePanel;
+        private System.Windows.Forms.Panel panelLogos;
+        private System.Windows.Forms.PictureBox LogoPRINTRBOT;
+        private System.Windows.Forms.LinkLabel linkCKAB;
 
         // Filament
+        private System.Windows.Forms.GroupBox groupFilament;
         private System.Windows.Forms.Button buttonLoad;
         private System.Windows.Forms.Button buttonUnload;
 
@@ -407,21 +411,21 @@
         private System.Windows.Forms.Label labelPreheatingStatus;
         private System.Windows.Forms.Button buttonPreheat;
         private System.Windows.Forms.NumericUpDown preheatingTemperature;
-        private System.Windows.Forms.Panel panelLogos;
-        private System.Windows.Forms.PictureBox LogoPRINTRBOT;
+
+        // Calibration
         private System.Windows.Forms.GroupBox groupCalibration;
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.Label labelLoadingStatus;
         private System.Windows.Forms.Label labelCalibration;
         private System.Windows.Forms.Button buttonCalibrate;
-        private System.Windows.Forms.LinkLabel linkCKAB;
-        private System.Windows.Forms.GroupBox groupFilament;
-        private System.Windows.Forms.Panel panelConnection;
-        private System.Windows.Forms.Label labelConnection;
-        private System.Windows.Forms.Button buttonCheckConnection;
         private System.Windows.Forms.Button buttonTooFar;
         private System.Windows.Forms.Button buttonTooClose;
         private System.Windows.Forms.Button buttonCalibrationOK;
+
+        // Check Connection
+        private System.Windows.Forms.Panel panelConnection;
+        private System.Windows.Forms.Label labelConnection;
+        private System.Windows.Forms.Button buttonCheckConnection;
 
     }
 }

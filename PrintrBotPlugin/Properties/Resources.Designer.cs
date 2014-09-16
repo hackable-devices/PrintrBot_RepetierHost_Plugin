@@ -70,7 +70,7 @@ namespace PrintrBotPlugin.Properties {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Printing calibration cube ....
+        ///   Recherche une chaîne localisée semblable à Printing calibration layer ....
         /// </summary>
         internal static string Calibrate_Step2 {
             get {
@@ -84,6 +84,15 @@ namespace PrintrBotPlugin.Properties {
         internal static string Calibrate_Step2Done {
             get {
                 return ResourceManager.GetString("Calibrate_Step2Done", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à All is OK.
+        /// </summary>
+        internal static string Calibrate_Step3_OK {
+            get {
+                return ResourceManager.GetString("Calibrate_Step3_OK", resourceCulture);
             }
         }
         
@@ -124,7 +133,7 @@ namespace PrintrBotPlugin.Properties {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à To calibrate the Z axis, you need to find the correct offset for the nozzle first, and then calculate the planearity of the plate.
+        ///   Recherche une chaîne localisée semblable à The process of calibration will first home all axes thanks to the endstops on each axis.Then, the printer will heat up and print a calibration layer. Once this is done, you will be able to tell if the printed layer is too squashed or too far from the plate.Start the calibration again until the layers are perfectly consistent..
         /// </summary>
         internal static string CalibrateHelp {
             get {
