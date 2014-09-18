@@ -20,8 +20,11 @@ using RepetierHostExtender.basic;
 
 namespace PrintrBotPlugin
 {
+
     public partial class PrintrBotPanel : UserControl,IHostComponent
     {
+        const int _NOT_CALIBRATED = 100;
+
         private IHost host;
         private Boolean preheating = false;
         private Boolean calibrating = false;
@@ -31,11 +34,12 @@ namespace PrintrBotPlugin
         private int loadingTemperature = 215;
         private int temperatureBias = 3;
 
-        private double M212_Z_Offset = 1000;
+        private double M212_Z_Offset = _NOT_CALIBRATED; // Means : not calibrated yet
 
         public PrintrBotPanel()
         {
             InitializeComponent();
+            // DEBUG : System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("fr-FR");
             this.InitializeStrings();
         }
 
@@ -476,7 +480,7 @@ namespace PrintrBotPlugin
 
         private void changeZProbeOffset(double offset)
         {
-            if (this.M212_Z_Offset != 1000 ) // <> not probed yet
+            if (this.M212_Z_Offset != _NOT_CALIBRATED ) // <> not probed yet
             {
                // Change offset by "offset" -1 < Z < 1
                this.injectCommand(String.Format("M212 Z{0:f1}", Math.Min(1,Math.Max(this.M212_Z_Offset + offset, -1.0))));

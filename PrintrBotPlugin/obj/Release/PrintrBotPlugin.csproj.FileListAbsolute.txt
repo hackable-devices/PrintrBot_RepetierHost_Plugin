@@ -1,0 +1,11 @@
+C:\Program Files\Repetier-Host\plugins\PrintrBotPlugin\PrintrBotPlugin.dll
+C:\Program Files\Repetier-Host\plugins\PrintrBotPlugin\PrintrBotPlugin.pdb
+C:\Program Files\Repetier-Host\plugins\PrintrBotPlugin\fr-FR\PrintrBotPlugin.resources.dll
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\PrintrBotPlugin.csprojResolveAssemblyReference.cache
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\PrintrBotPlugin.PrintrBotPanel.resources
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\PrintrBotPlugin.Properties.Resources.resources
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\PrintrBotPlugin.Properties.Resources.fr-FR.resources
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\PrintrBotPlugin.csproj.GenerateResource.Cache
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\fr-FR\PrintrBotPlugin.resources.dll
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\PrintrBotPlugin.dll
+C:\Users\tchap\Documents\GitHub\printrbot-plugin\PrintrBotPlugin\obj\Release\PrintrBotPlugin.pdb

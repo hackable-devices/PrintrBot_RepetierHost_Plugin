@@ -118,121 +118,117 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CalibrateButton_Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuler</value>
   </data>
   <data name="CalibrateButton_Do" xml:space="preserve">
-    <value>Calibrate</value>
+    <value>Calibrer</value>
   </data>
   <data name="CalibrateHelp" xml:space="preserve">
-    <value>The process of calibration will first home all axes thanks to the endstops on each axis.Then, the printer will heat up and print a calibration layer. Once this is done, you will be able to tell if the printed layer is too squashed or too far from the plate.Start the calibration again until the layers are perfectly consistent.</value>
+    <value>Le processus de calibration va d'abord trouver la position d'origine de la machine. Puis, l'imprimante va imprimer une couche de calibration; une fois ceci fait, vous pourrez dire si l'impression est trop prêt ou trop loin du plateau. Vous devez recommencer la calibration jusqu'à ce que l'impression soit à la bonne distance du plateau.</value>
   </data>
   <data name="CalibratePanelTitle" xml:space="preserve">
     <value>Calibration</value>
   </data>
   <data name="Calibrate_Step1" xml:space="preserve">
-    <value>Finding X,Y and Z Home positions</value>
+    <value>Recherche des origines en X, Y et Z en cours</value>
+  </data>
+  <data name="Calibrate_Step2" xml:space="preserve">
+    <value>Impression de la couche de calibration</value>
+  </data>
+  <data name="Calibrate_Step2Done" xml:space="preserve">
+    <value>Impression terminée. Si la couche imprimée est trop ecrasée, cliquez sur "Buse trop prêt", sinon au contraire la couche ne tient pas au plateau, cliquez sur "Buse trop loin". Enfin, cliquez sur "Tout est bon" si la couche est bien imprimée. Refaites la calibration jusqu'à ce que tout soit bon.</value>
+  </data>
+  <data name="Calibrate_Step3_OK" xml:space="preserve">
+    <value>Tout est bon</value>
+  </data>
+  <data name="Calibrate_Step3_TooClose" xml:space="preserve">
+    <value>Buse trop prêt</value>
+  </data>
+  <data name="Calibrate_Step3_TooFar" xml:space="preserve">
+    <value>Buse trop loin</value>
   </data>
   <data name="FilamentPanelTitle" xml:space="preserve">
     <value>Filament</value>
   </data>
   <data name="LabelPreheating" xml:space="preserve">
-    <value>Preheating temperature :</value>
+    <value>Température préchauffe :</value>
   </data>
   <data name="LoadingButton_Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Annuler</value>
   </data>
   <data name="LoadingButton_Load" xml:space="preserve">
-    <value>Load filament</value>
+    <value>Charger</value>
   </data>
   <data name="LoadingButton_Unload" xml:space="preserve">
-    <value>Unload filament</value>
-  </data>
-  <data name="LoadingLabel_Heating" xml:space="preserve">
-    <value>Heating ...</value>
-  </data>
-  <data name="LoadingLabel_Loading" xml:space="preserve">
-    <value>Loading</value>
-  </data>
-  <data name="LoadingLabel_Unloading" xml:space="preserve">
-    <value>Unloading</value>
-  </data>
-  <data name="PreheatButton_Cancel" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="PreheatButton_Do" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="PreheatLabel_Heating" xml:space="preserve">
-    <value>Heating ...</value>
-  </data>
-  <data name="PreheatLabel_NotHeating" xml:space="preserve">
-    <value>Not Heating</value>
-  </data>
-  <data name="PreheatPanelTitle" xml:space="preserve">
-    <value>Preheating</value>
-  </data>
-  <data name="PrinterDisconnected_Button" xml:space="preserve">
-    <value>Check Connection</value>
-  </data>
-  <data name="PrinterDisconnected_Label" xml:space="preserve">
-    <value>The PrintrBot seems not connected. Connect it again, and click Connect in the upper left corner of the interface.</value>
-  </data>
-  <data name="PrinterDisconnected_Text" xml:space="preserve">
-    <value>The PrintrBot seems to be disconnected. Connect it again, and click Connect in the upper left corner of the interface.</value>
-  </data>
-  <data name="PrinterDisconnected_Title" xml:space="preserve">
-    <value>Printer disconnected</value>
-  </data>
-  <data name="Title" xml:space="preserve">
-    <value>PrintrBot Control Panel by CKAB</value>
+    <value>Décharger</value>
   </data>
   <data name="LoadingLabel_FanOff" xml:space="preserve">
-    <value>Stopping fan ...</value>
+    <value>Arrêt du ventilateur</value>
   </data>
   <data name="LoadingLabel_FanOn" xml:space="preserve">
-    <value>Starting fan ...</value>
+    <value>Démarrage du ventilateur</value>
+  </data>
+  <data name="LoadingLabel_Heating" xml:space="preserve">
+    <value>Chauffe</value>
+  </data>
+  <data name="LoadingLabel_Loading" xml:space="preserve">
+    <value>Chargement en cours</value>
   </data>
   <data name="LoadingLabel_MovingAway" xml:space="preserve">
-    <value>Going up a bit ...</value>
+    <value>Je remonte légèrement la tête</value>
   </data>
-  <data name="Calibrate_Step2" xml:space="preserve">
-    <value>Printing calibration layer ...</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="calibration_cube" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calibration_cube.gcode;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="LoadingLabel_Unloading" xml:space="preserve">
+    <value>Déchargement en cours</value>
   </data>
   <data name="LoadingMessageBox_Text" xml:space="preserve">
-    <value>You can now load the filament into the extruder and check that it's extruding</value>
+    <value>Vous pouvez maintenant insérer le filament dans la tête et vérifier qu'il extrude correctement.</value>
   </data>
   <data name="LoadingMessageBox_Title" xml:space="preserve">
-    <value>Loading filament</value>
-  </data>
-  <data name="UnloadingMessageBox_Text" xml:space="preserve">
-    <value>You can now unload the filament from the extruder slowly, make sure that you remove all little parts that may remain in the filament plunger.</value>
-  </data>
-  <data name="UnloadingMessageBox_Title" xml:space="preserve">
-    <value>Unloading filament</value>
-  </data>
-  <data name="Calibrate_Step2Done" xml:space="preserve">
-    <value>Printing done. If the layer printed is too squashed, click on "Nozzle too close", if the layer is not sticking, click on "Nozzle too far". If it's fine, click on "All is OK". You have to redo this calibration process until the layer is at the good height.</value>
-  </data>
-  <data name="Calibrate_Step3_TooClose" xml:space="preserve">
-    <value>Nozzle Too Close</value>
-  </data>
-  <data name="Calibrate_Step3_TooFar" xml:space="preserve">
-    <value>Nozzle Too Far</value>
+    <value>Chargement du filament</value>
   </data>
   <data name="NewCalibrationOrNot_Text" xml:space="preserve">
-    <value>Do you want to start a new calibration ? If you haven't calibrated before, click yes. If you already have calibrated and want to tweak your settings, click no.</value>
+    <value>Voulez-vous commencer une nouvelle calibration ? Si vous n'avez pas calibré votre machine avec cet utilitaire par le passé, cliquez sur Oui. Si vous avez déjà calibré votre machine, et que vous voulez affiner la calibration, cliquez sur Non.</value>
   </data>
   <data name="NewCalibrationOrNot_Title" xml:space="preserve">
-    <value>New Calibration</value>
+    <value>Nouvelle Calibration</value>
   </data>
   <data name="NumberOfLinesInCalibrationGCODE" xml:space="preserve">
     <value>210.0</value>
   </data>
-  <data name="Calibrate_Step3_OK" xml:space="preserve">
-    <value>All is OK</value>
+  <data name="PreheatButton_Cancel" xml:space="preserve">
+    <value>Arrêter</value>
+  </data>
+  <data name="PreheatButton_Do" xml:space="preserve">
+    <value>Démarrer</value>
+  </data>
+  <data name="PreheatLabel_Heating" xml:space="preserve">
+    <value>Chauffe ...</value>
+  </data>
+  <data name="PreheatLabel_NotHeating" xml:space="preserve">
+    <value>Pas de chauffe</value>
+  </data>
+  <data name="PreheatPanelTitle" xml:space="preserve">
+    <value>Préchauffe</value>
+  </data>
+  <data name="PrinterDisconnected_Button" xml:space="preserve">
+    <value>Vérifier la connection</value>
+  </data>
+  <data name="PrinterDisconnected_Label" xml:space="preserve">
+    <value>Votre imprimante n'a pas l'air connectée. Connectez-là, puis cliquez sur Connecter en haut à droite de l'interface de Repetier-Host.</value>
+  </data>
+  <data name="PrinterDisconnected_Text" xml:space="preserve">
+    <value>Votre imprimante a été deconnectée. Connectez-là, puis cliquez sur Connecter en haut à droite de l'interface de Repetier-Host.</value>
+  </data>
+  <data name="PrinterDisconnected_Title" xml:space="preserve">
+    <value>Imprimante déconnectée</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Panneau de contrôle PrintrBot par CKAB</value>
+  </data>
+  <data name="UnloadingMessageBox_Text" xml:space="preserve">
+    <value>Vous pouvez maintenant enlever délicatement le filament de l'extrudeur, en prenant soin d'enlever tous les résidus si nécessaire.</value>
+  </data>
+  <data name="UnloadingMessageBox_Title" xml:space="preserve">
+    <value>Déchargement du filament</value>
   </data>
 </root>

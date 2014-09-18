@@ -79,7 +79,7 @@ namespace PrintrBotPlugin.Properties {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Printing done. If the layers printed are too squashed, click on &quot;Nozzle too close&quot;, else, click on &quot;Nozzle too far&quot;.
+        ///   Recherche une chaîne localisée semblable à Printing done. If the layer printed is too squashed, click on &quot;Nozzle too close&quot;, if the layer is not sticking, click on &quot;Nozzle too far&quot;. If it&apos;s fine, click on &quot;All is OK&quot;. You have to redo this calibration process until the layer is at the good height..
         /// </summary>
         internal static string Calibrate_Step2Done {
             get {
@@ -377,7 +377,7 @@ namespace PrintrBotPlugin.Properties {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à The PrintrBot seems not connected. Connect it and press the button below to start..
+        ///   Recherche une chaîne localisée semblable à The PrintrBot seems not connected. Connect it again, and click Connect in the upper left corner of the interface..
         /// </summary>
         internal static string PrinterDisconnected_Label {
             get {
@@ -386,7 +386,7 @@ namespace PrintrBotPlugin.Properties {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à The PrintrBot seems to be disconnected. Connect it again or check the connection and try again..
+        ///   Recherche une chaîne localisée semblable à The PrintrBot seems to be disconnected. Connect it again, and click Connect in the upper left corner of the interface..
         /// </summary>
         internal static string PrinterDisconnected_Text {
             get {

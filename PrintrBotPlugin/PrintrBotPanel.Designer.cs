@@ -260,7 +260,7 @@
             this.buttonCalibrationOK.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCalibrationOK.BackColor = System.Drawing.Color.LightGreen;
+            this.buttonCalibrationOK.BackColor = System.Drawing.Color.LimeGreen;
             this.buttonCalibrationOK.Location = new System.Drawing.Point(137, 131);
             this.buttonCalibrationOK.Name = "buttonCalibrationOK";
             this.buttonCalibrationOK.Size = new System.Drawing.Size(48, 23);
@@ -274,7 +274,7 @@
             // 
             this.buttonTooFar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonTooFar.BackColor = System.Drawing.Color.Plum;
+            this.buttonTooFar.BackColor = System.Drawing.Color.GhostWhite;
             this.buttonTooFar.Location = new System.Drawing.Point(191, 131);
             this.buttonTooFar.Name = "buttonTooFar";
             this.buttonTooFar.Size = new System.Drawing.Size(104, 23);
@@ -288,7 +288,7 @@
             // 
             this.buttonTooClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonTooClose.BackColor = System.Drawing.Color.BurlyWood;
+            this.buttonTooClose.BackColor = System.Drawing.Color.White;
             this.buttonTooClose.Location = new System.Drawing.Point(27, 131);
             this.buttonTooClose.Name = "buttonTooClose";
             this.buttonTooClose.Size = new System.Drawing.Size(104, 23);
